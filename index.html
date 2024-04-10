@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laura Schneider</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <style>
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        
+        me{
+            height: 50%; 
+            width: auto;
+        }
+        .foto-perfil {
+            height: 100%; 
+            width: auto;
+            max-width: auto;
+            border-radius: 50%;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: white;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #18bc9c
+        }
+
+        .paragrafoBrancos {
+            color: white !important;
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: black !important;
+        }
+
+        .corPrimaria {
+            background-color: #1d4d5c;
+        }
+        h3{
+            color: #ececec;
+            margin-left: 4;
+        }
+        .itemMenu {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#2c3e50">
+        <a class="navbar-brand" href="#" style=color:white>Laura Schneider</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#projetos" class="nav-link" style=color:white> Projetos</a>
+                </li>
+                <li>
+                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#depoimentos" class="nav-link" style=color:white>Depoimentos</a>
+                </li>
+                <li>
+                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center corPrimaria">
+        <div class="contaner">
+            <img src="me.png" class="foto-perfil" alt="Responsive image">
+            <h1 class="jumbotron-heading" style="color:white;text-transform: uppercase;">Laura Schneider</h1>
+            <p class="lead" style="color:white !important;">Software Developer - Student
+            </p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">Contato</a>
+            </p>
+            <a href="#"><i style="color:white" class="fab fa-github"></i></a>
+            <a href="#"><i style="color:white" class="fab fa-linkedin"></i></a>
+            <a href="#"><i style="color:white" class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <!-- Projects -->
+    <div class="album py-5 bg-light " id="projetos">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosVerdes">Projetos</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                        data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                        alt="Thumbnail [100%x225]" src="projeto1.png" data-holder-rendered="true"
+                        style="height: 225px; width: 100%a;max-width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto que eu desenvolvi usando as tecnologias A, B, C e D.
+                            </p>
+                            <ul>
+                                <li>C#</li>
+                                <li>Javascript</li>
+                                <li>Python</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button>
+                                </div>
+                                <small class="text-muted">Projeto Web</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-4 box-shadow">
+                        <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="projeto2.png" data-holder-rendered="true"
+                            style="height: 225px; width: 100%; display: block;">
+                        <div class="card-body">
+                            <p class="card-text">Esse é um projeto que eu desenvolvi usando as tecnologias A, B, C e D.
+                            </p>
+                            <ul>
+                                <li>C</li>
+                                <li>Javascript</li>
+                                <li>C#</li>
+                                <li>Python</li>
+                                <li>Javascript</li>
+                                <li>Python</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-success">Ver Projeto</button>
+                                    <button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button>
+                                </div>
+                                <small class="text-muted">Projeto Mobile</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">Sobre mim</h2>
+            <h3>PT-BR</h3>
+            <p class="lead paragrafoBrancos">Olá! Me chamo Laura, tenho 18 anos e sou natural de Santa Maria, no Rio Grande do Sul. Estou atualmente no 5° semestre do curso de Sistemas de Informação na Universidade Franciscana (UFN), em Santa Maria. Desde muito jovem, venho trilhando uma jornada em busca de aprendizado e desenvolvimento pessoal, sempre pronta para abraçar novas oportunidades que surgem em meu caminho.
+
+                Ingressei na universidade aos 16 anos, após ter sido aprovada no vestibular. Tenho facilidade de aprendizado e uma boa comunicação interpessoal. Sou uma pessoa pró-ativa e colaborativa, capaz de trabalhar em equipe e contribuir de forma significativa para alcançar objetivos em comum.
+                
+                Além dos estudos universitários, tenho várias metas pessoais e profissionais a serem alcançadas. Uma delas é ingressar na Aeronáutica, um objetivo que almejo alcançar com determinação e dedicação.</p>
+        </div>
+    </section>
+    <section class="jumbotron text-center corPrimaria" id="sobre-mim">
+        <div class="container">
+            <h2 class="jumbotron-heading titulosBrancos">about me</h2>
+            <h3>ENG</h3>
+            <p class="lead paragrafoBrancos">Hello! My name is Laura, I'm 18 years old and I'm from Santa Maria, in Rio Grande do Sul. I'm currently in the 5th semester of the Information Systems course at the Franciscan University (UFN), in Santa Maria. Since I was very young, I have been on a journey in search of learning and personal development, always ready to embrace new opportunities that come my way.
+
+                I entered university at 16, after passing the entrance exam. I am easy to learn and have good interpersonal communication. I am a proactive and collaborative person, capable of working in a team and contributing significantly to achieving common goals.
+                
+                In addition to university studies, I have several personal and professional goals to achieve. One of them is to join the Air Force, a goal that I aim to achieve with determination and dedication.</p>
+        </div>
+    </section>
+    <section Id="depoimentos">
+        <div class="album py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center jumbotron-heading titulosVerdes">Depoimentos</h2>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">É uma profissional que tem um futuro muito promissor pela frente! Com um foco enorme em suas tarefas diárias, alem da
+                        simples dedicação nas disciplinas.</p>
+                    <footer class="blockquote-footer">Direção<cite title="Source Title"> UFN</cite>
+                    </footer>
+                </blockquote>
+                <blockquote class="blockquote text-center">
+                    <p class="mb-0">Uma profissional super focada, dedicada, pontual com seus compromissos.
+                        Interessada e super empolgada na área em que atua e nas demais, o que o torna uma profissional
+                        pró-ativa e altamente eficiente.</p>
+                    <footer class="blockquote-footer">Analista de Sistemas <cite title="Source Title">UFN</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <section Id="contato" class="corPrimaria">
+        <div class="corPrimaria">
+            <div class="container-fluid">
+                <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
+                        href="mailto:lauramachts0@gmail.com">lauramachts0@gmail.com👈</a></h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center" style="background-color:#2c3e50;padding:0px; margin:0px">
+        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2020 - 2023
+            DevAprender®
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // Animação ao passar o mouse sobre os ícones
+            $(".fab").hover(function () {
+                $(this).css("transform", "scale(1.2)");
+            }, function () {
+                $(this).css("transform", "scale(1)");
+            });
+
+            // Animação ao clicar nos ícones
+            $(".fab").click(function () {
+                $(this).animate({ rotation: 360 }, {
+                    duration: 1000,
+                    step: function (now) {
+                        $(this).css({ transform: 'rotate(' + now + 'deg)' });
+                    }
+                });
+            });
+            $(".fab").css("font-size", "200%");
+        });
+    </script>
+
+</body>
+
+</html>
