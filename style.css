@@ -1,8 +1,10 @@
-
 p {
+        font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        .navbar-brand{
+            font-size: 33px;
             font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
-        
         me{
             height: 50%; 
             width: auto;
@@ -10,8 +12,9 @@ p {
         .foto-perfil {
             height: 100%; 
             width: auto;
+            width: 300px;
             max-width: auto;
-            border-radius: 50%;
+            border-radius: 100%;
         }
 
         .icones {
@@ -55,12 +58,34 @@ p {
 
         .corPrimaria {
             background-color: #1d4d5c;
+            background: linear-gradient(120deg, #408ba1, #0f3944);
         }
-        h3{
-            color: #ececec;
+        h4{
+            color: rgb(236, 236, 236);
             margin-left: 4;
+        }
+        .space1{
+            margin-bottom: 100px;
+        }
+        .space2{
+            margin-bottom: 210px;
+        }
+        .space3{
+            margin-bottom: 80px;
+        }
+        .space4{
+            margin-bottom: 100px;
+        }
+        .space5{
+            margin-bottom: 200px;
+        }
+        .space6{
+            margin-bottom: 150px;
         }
         .itemMenu {
             color: white;
         }
-  
+        .icon-container img {
+            margin-right:  15px; 
+            margin-bottom: 15px;
+}
