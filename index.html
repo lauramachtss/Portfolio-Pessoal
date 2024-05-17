@@ -92,6 +92,11 @@
             color: rgb(236, 236, 236);
             margin-left: 4;
         }
+        .divider{
+            background-color:#18bc9c;
+            height: 3px;
+            margin: 0px 0;
+        }
         .space1{
             margin-bottom: 160px;
         }
@@ -118,15 +123,15 @@
             margin-bottom: 15px;
         }
         .icon-container a:hover img {
-        transform: scale(1.1); 
-        transition: transform 0.1s ease; 
+            transform: scale(1.1); 
+            transition: transform 0.1s ease; 
         }
         .expand-on-hover {
-        transition: transform 0.3s ease;
-        display: inline-block; /* Garante que a transição de escala funcione corretamente */
+            transition: transform 0.3s ease;
+            display: inline-block; 
         }
-        .expand-on-hover:hover {
-        transform: scale(1.1);
+            .expand-on-hover:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -138,7 +143,6 @@
             aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarsExample04">
             <ul class="navbar-nav mr-auto">
 
@@ -151,7 +155,7 @@
                     <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
                 </li>
                 <li>
-                    <a href="#projetos" class="nav-link" style=color:white> Projetos</a>
+                    <a href="#projetos" class="nav-link" style=color:white>Projetos</a>
                 </li>
                 <li>
                     <a href="#competencias" class="nav-link" style=color:white>Competências</a>
@@ -179,7 +183,7 @@
             <div class="space1">
             </div>
     </section>
-    <div class="navbar-divider" style="background-color:#18bc9c; height: 3px; margin: 0px 0;"></div>
+    <div class="divider"></div>
     </div>
     <!--Depoimentos-->
     </section>
@@ -207,7 +211,7 @@
                 </div>
             </div>
         </div>
-        <div class="navbar-divider" style="background-color:#18bc9c; height: 3px; margin: 0px 0;"></div>
+        <div class="divider"></div>
     </section>
     <!--Descrição-->
     <section class="jumbotron text-center corPrimaria" id="sobre-mim">
@@ -242,7 +246,7 @@
             <div class="space2">
         </div>
     </section>
-    <div class="navbar-divider" style="background-color:#18bc9c; height: 3px; margin: 0px 0;"></div>
+    <div class="divider"></div>
     </div>
     <!--Projetos-->
     <section class="projetos">
@@ -295,8 +299,8 @@
                                   </ul>
                                   <div class="d-flex justify-content-between align-items-center">
                                       <div class="btn-group">
-                                          <a href="https://github.com/" target="_blank" class="btn btn-sm btn-outline-success">Ver Projeto</a>
-                                          <a href="https://github.com/" target="_blank" class="btn btn-sm btn-outline-primary">Ver Código</a>
+                                          <a href="https://github.com/lauramachts0/Historico-Projetos" target="_blank" class="btn btn-sm btn-outline-success">Ver Projeto</a>
+                                          <a href="https://github.com/lauramachts0/Historico-Projetos" target="_blank" class="btn btn-sm btn-outline-primary">Ver Código</a>
                                       </div>
                                   </div>                            
                                       <small class="text-muted">Projeto Mobile</small>
@@ -367,7 +371,8 @@
             </div>
         </div>
     </section>
-    <div class="navbar-divider" style="background-color:#dfdfdf; height: 1px; margin: 0px 0;"></div>
+    <div class="divider" style="background-color:#dfdfdf; height: 1px; margin: 0px 0;">
+    </div>
     <!--Competências-->
     <section id="competencias">
         <div class="container text-center">
@@ -425,7 +430,7 @@
     </section>
     <div class="space6">
     </div>
-    <div class="navbar-divider" style="background-color:#18bc9c; height: 3px; margin: 0px 0;"></div>
+    <div class="divider"></div>
     <!--contato-->
     <section Id="contato" class="corPrimaria">
         <div class="corPrimaria">
