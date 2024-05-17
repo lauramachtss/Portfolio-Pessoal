@@ -120,7 +120,13 @@
         .icon-container a:hover img {
         transform: scale(1.1); 
         transition: transform 0.1s ease; 
-    
+        }
+        .expand-on-hover {
+        transition: transform 0.3s ease;
+        display: inline-block; /* Garante que a transição de escala funcione corretamente */
+        }
+        .expand-on-hover:hover {
+        transform: scale(1.1);
         }
     </style>
 </head>
@@ -425,8 +431,9 @@
         <div class="corPrimaria">
             <div class="container-fluid">
                 <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
-                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center"><a
-                        href="mailto:lauramachts0@gmail.com">lauramachts0@gmail.com👈</a></h4>
+                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:white;" class="text-center">
+                    <a href="mailto:lauramachts0@gmail.com" class="expand-on-hover">lauramachts0@gmail.com👈</a>
+                </h4>
             </div>
         </div>
     </section>
