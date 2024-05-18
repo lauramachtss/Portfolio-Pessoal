@@ -5,10 +5,6 @@ p {
             font-size: 33px;
             font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
         }
-        me{
-            height: 50%; 
-            width: auto;
-        }
         .foto-perfil {
             height: 100%; 
             width: auto;
@@ -28,7 +24,6 @@ p {
             font-weight: 700;
             color: white;
         }
-
         .titulosVerdes {
             text-decoration: underline;
             text-underline-position: under;
@@ -58,7 +53,7 @@ p {
             background: linear-gradient(120deg, #408ba1, #0f3944);
         }
         .icon{
-            margin-bottom: 16px;
+            margin-bottom: 13px;
             height: 40%; 
             width: auto;
             width: 40px;
@@ -68,6 +63,11 @@ p {
         h4{
             color: rgb(236, 236, 236);
             margin-left: 4;
+        }
+        .divider{
+            background-color:#18bc9c;
+            height: 3px;
+            margin: 0px 0;
         }
         .space1{
             margin-bottom: 160px;
@@ -95,13 +95,13 @@ p {
             margin-bottom: 15px;
         }
         .icon-container a:hover img {
-        transform: scale(1.1); 
-        transition: transform 0.1s ease; 
+            transform: scale(1.1); 
+            transition: transform 0.1s ease; 
         }
         .expand-on-hover {
-        transition: transform 0.3s ease;
-        display: inline-block; /* Garante que a transição de escala funcione corretamente */
+            transition: transform 0.3s ease;
+            display: inline-block; 
         }
-        .expand-on-hover:hover {
-        transform: scale(1.1);
+            .expand-on-hover:hover {
+            transform: scale(1.1);
         }
