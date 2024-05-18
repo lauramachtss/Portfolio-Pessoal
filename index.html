@@ -63,7 +63,6 @@
             margin-bottom: 0px;
             border-radius: 0;
         }
-
         html {
             scroll-behavior: smooth;
         }
@@ -405,7 +404,7 @@
                     <img alt="C" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg">
                 </a>
                 <a href="https://getbootstrap.com/">
-                    <img alt="Bootstrap" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain.svg">
+                    <img alt="Bootstrap" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
                 </a>
                 <a href="https://jquery.com/">
                     <img alt="jQuery" height="100" width="100" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jquery/jquery-plain.svg">
@@ -465,9 +464,11 @@
 
           
             $(".fab").click(function () {
+                
                 $(this).animate({ rotation: 360 }, {
                     duration: 1000,
                     step: function (now) {
+                        
                         $(this).css({ transform: 'rotate(' + now + 'deg)' });
                     }
                 });
