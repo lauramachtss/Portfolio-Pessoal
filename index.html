@@ -74,6 +74,9 @@
             background-color: #1d4d5c;
             background: linear-gradient(120deg, #408ba1, #0f3944);
         }
+        .nav-link.active {
+              color: #29aae1 !important;
+        }
         .icon{
             margin-bottom: 13px;
             height: 40%; 
@@ -112,6 +115,13 @@
         .itemMenu {
             color: white;
         }
+        .nav-link {
+            transition: transform 0.001s ease;
+            margin-left: 5px;
+        }
+        .nav-link:hover {
+          transform: scale(1.1);
+        }
         .icon-container img {
             margin-right:  15px; 
             margin-bottom: 15px;
@@ -121,7 +131,7 @@
             transition: transform 0.1s ease; 
         }
         .expand-on-hover {
-            transition: transform 0.3s ease;
+            transition: transform 1s ease;
             display: inline-block; 
         }
             .expand-on-hover:hover {
@@ -142,19 +152,19 @@
             </ul>
             <ul class="navbar-nav">
                 <li>
-                    <a href="#depoimentos" class="nav-link" style=color:white>Depoimentos</a>
+                    <a href="#depoimentos" class="nav-link" style="color:white">Depoimentos</a>
                 </li>
                 <li>
-                    <a href="#sobre-mim" class="nav-link" style=color:white>Sobre mim</a>
+                    <a href="#sobre-mim" class="nav-link" style="color:white">Sobre mim</a>
                 </li>
                 <li>
-                    <a href="#projetos" class="nav-link" style=color:white>Projetos</a>
+                    <a href="#projetos" class="nav-link" style="color:white">Projetos</a>
                 </li>
                 <li>
-                    <a href="#competencias" class="nav-link" style=color:white>Competências</a>
+                    <a href="#competencias" class="nav-link" style="color:white">Competências</a>
                 </li>
                 <li>
-                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                    <a href="#contato" class="nav-link" style="color:white">Contato</a>
                 </li>
             </ul>
         </div>
@@ -462,7 +472,6 @@
                 $(this).css("transform", "scale(1)");
             });
 
-          
             $(".fab").click(function () {
                 
                 $(this).animate({ rotation: 360 }, {
@@ -474,6 +483,26 @@
                 });
             });
             $(".fab").css("font-size", "260%");
+        });
+        $(document).ready(function () {
+
+            $(".nav-link").hover(function () {
+                $(this).addClass("active");
+            }, function () {
+                $(this).removeClass("active");
+            });
+
+            $(".nav-link").click(function () {
+                $(this).addClass("active");
+            });
+        });
+        $(document).ready(function () {
+            
+            $(".nav-link").hover(function () {
+                $(this).css("transform", "scale(1.1)");
+            }, function () {
+                $(this).css("transform", "scale(1)");
+            });
         });
     </script>
 </body>
