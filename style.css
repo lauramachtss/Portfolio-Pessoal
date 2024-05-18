@@ -40,7 +40,6 @@ p {
             margin-bottom: 0px;
             border-radius: 0;
         }
-
         html {
             scroll-behavior: smooth;
         }
@@ -51,6 +50,9 @@ p {
         .corPrimaria {
             background-color: #1d4d5c;
             background: linear-gradient(120deg, #408ba1, #0f3944);
+        }
+        .nav-link.active {
+              color: #29aae1 !important;
         }
         .icon{
             margin-bottom: 13px;
@@ -90,6 +92,13 @@ p {
         .itemMenu {
             color: white;
         }
+        .nav-link {
+            transition: transform 0.001s ease;
+            margin-left: 5px;
+        }
+        .nav-link:hover {
+          transform: scale(1.1);
+        }
         .icon-container img {
             margin-right:  15px; 
             margin-bottom: 15px;
@@ -99,9 +108,9 @@ p {
             transition: transform 0.1s ease; 
         }
         .expand-on-hover {
-            transition: transform 0.3s ease;
+            transition: transform 1s ease;
             display: inline-block; 
         }
-            .expand-on-hover:hover {
+        .expand-on-hover:hover {
             transform: scale(1.1);
         }
